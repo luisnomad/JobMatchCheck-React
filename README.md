@@ -42,4 +42,6 @@ The Job Match Topic Feature was developed to simplify the job search process and
 
 You may use it for whatever purpose you want, I just ask you to credit me if you find this code useful. Also, I accept coffee invites via Paypal, my handle is @luisnomad, **luisnomad@icloud.com**
 
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JM26XFWF4HGUW)
+
 For more information about the author, please visit [www.luisnomad.com](https://www.luisnomad.com).
