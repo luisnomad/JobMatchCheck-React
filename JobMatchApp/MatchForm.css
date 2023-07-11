@@ -1,0 +1,69 @@
+/*
+ * Although I am using Tailwind, you'll find here some CSS code that, in theory, I shouldn't need.
+ * But I am using Astro + React, and for some reason I haven't found yet, some Tailwind classes are
+ * not working (probably incorrectly purged?) and I had to add them manually.
+ * Feel free to delete them if you think they are not necessary. Also, if you find an explanation,
+ * please let me know.
+ */
+.topic-button {
+  font-family: "Montserrat", serif;
+  background-color: rgba(255,255,255,0.1);
+  margin-bottom: 5px;
+  display: inline-block;
+ }
+
+ .topic-button:hover {
+  text-decoration: underline;
+ }
+
+/* desktop-flexbox on desktop only */
+.desktop-flexbox {
+  display:block; 
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.text-pink {
+  color: #AA336A; 
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .topic-button {
+    background-color: transparent;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .desktop-flexbox {
+    display:flex;
+  }
+
+  .links-container {
+    margin-right: 30px;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-header {
+    position: fixed;
+    right: 0;
+    left: 0;
+  }
+
+  .container {
+    margin-top: 150px;
+  }
+}
+
